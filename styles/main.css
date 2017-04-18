@@ -1,0 +1,165 @@
+* {
+	margin: 0
+}
+body {
+	font-family: sans-serif;
+}
+#banner{
+	background-image: url(../images/header.jpg);
+	background-size: 100%;
+	height: 550px;
+}
+.navigation a:not(:last-child){
+	border-right: 1px solid rgba(255,255,255,0.2);
+}
+.navigation{
+	background-color: rgba(0,0,0,0.1);
+	height: 72px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 72px;
+	font-weight: 100;
+}
+.navigation a{
+	font-size: 12px;
+	color: #fff;
+	padding: 0 25px;
+	text-decoration: none;
+}
+#banner h1{
+	font-size: 72px;
+	text-align: center;
+	color: #fff;
+	margin-top: 140px;
+	font-weight: 100;
+}
+#banner h3{
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+}
+.content{
+	background-color: #f2f2f2;
+	padding: 80px 120px;
+}
+.Welcome{
+	text-align: center;
+	color: #6f6f6f;
+}
+.Welcome h2{
+	font-size: 36px;
+	font-weight: 100;
+	margin-bottom: 50px;
+}
+.Welcome p{
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 100;
+	padding-bottom: 70px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.Welcome span{
+	color: #8bbf98;
+}
+.introduction{
+	display: inline-block;
+}
+.item{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin: 0 20px;
+	font-weight: 100;
+	color: #6f6f6f;
+	margin-top: 50px;
+	padding:auto 30px;
+}
+.item img{
+	width: 72px;
+}
+.item h3{
+	font-size: 18px;
+	font-weight: 100;
+	margin-top:30px;
+}
+.item p{
+	font-size: 12px;
+	line-height: 18px;
+	margin:30px 30px 45px 30px;
+}
+.item a{
+	background-color: #8bbf98;
+	font-size: 14px;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.picture{
+	padding: 30px 100px;
+	display: inline-block;
+
+}
+.picture-element{
+	float: left;
+	width: 576px;
+	margin: auto 20px;
+	text-align: center;
+	color: #6f6f6f;
+	font-weight: 100;
+}
+.picture-element h3{
+	font-weight: 100;
+	font-size: 22px;
+	margin-top: 30px;
+}
+.picture-element p{
+	text-align: center;	
+	font-size: 12px;
+	margin:15px 50px auto 70px;
+
+}
+.picture-element img{
+	margin-top: 60px;
+}
+.text{
+	background-image: url(../images/header.jpg);
+	background-size: 100%;
+	height: 310px;
+	padding: 0 275px;
+	background-position-y:-280px;
+}
+.text p{
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 100;
+	line-height: 27px;
+	padding-top: 130px;	
+}
+.footer{
+	background-color: #161616;
+	font-weight: 100;	
+	text-align: center;
+}
+.footer h1{
+	font-size: 36px;
+	color: #fff;	
+	padding-top: 80px;
+}
+.footer .top{
+	color: #454545;
+	font-size: 16px;
+	margin: 20px 0;	
+}
+.footer img{
+	margin: 20px 0;
+}
+.footer .bottom{
+	color: #454545;
+	font-size: 12px;
+	padding: 20px;
+	margin: 0 120px;
+	border-top: 1px solid #171717;
+}
